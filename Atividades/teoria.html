@@ -1,0 +1,181 @@
+
+
+
+<!DOCTYPE html>
+
+<html lang="pt-br">
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Principal</title>
+
+    <style>
+        /* Seletor Universal */
+        *{
+            margin: 0;
+        }
+        /* Seletor de tipo, aplicando em uma tag */
+        p{
+            color:chartreuse;
+        }
+
+        /* Seletor de classe */
+        .paragrafo{
+            background-color: chocolate;
+            /* margin: 10px; - Aplica em todas as marcas*/
+            /*margin: 10px 40px; - Aplica nas margens 'Laterais' e 'Superior e inferior' */
+            /*margin: 10px 20px 30px 40px; aplica margem top, right, bottom, left*/ 
+            margin-left: 10px;
+            /* alinha elementos ao centro */ 
+            text-align: center ;
+        }
+
+        .imagem{
+            width: 150px;
+            height: 100px;
+        }
+
+
+    </style>
+</head>
+<body style="background-color: rgb(125, 135, 196);">
+    Olá Mundo 
+    <h1>Desenvolvimento de sistemas</h1>
+    <h2>Sesi Senai</h2>
+    <h3>Cabeçalho nível 3</h3>
+    <h4>Cabeçalho nível 4</h4>
+    <h5>Cabeçalho nível 5</h5>
+    <h6>Cabeçalho nível 6</h6>
+
+    <!-- Insere uma linha horizontal -->
+    <hr>
+    <!-- A tag P insere um novo parágrafo -->
+    <p>Este é um      a       parágrafo
+        <p> Outro parágrafo </p>
+    </p>
+    <hr> 
+    
+    <!-- A tag br quebra uma linha,
+     ela é uma tag sem fechamento -->
+    <p>Este é um texto muito grande, <br>
+         que eu desejo quebrar a linha</p>
+    
+     <!--Inserindo um link para
+     abrir uma página  -->
+    <a href="https://www.sesi.org.br">Pagina do sesi</a>
+    <a>  -  </a>
+    <!-- Link com atributo _blank para abrir em outra janela -->
+    <a href="https://www.sp.senai.br/" target="_self" > Senai</a> <p>
+
+    <!-- tag img para adicionar uma imagem,
+     o atributo src e preenchido com o caminho da imagem -->
+    <img src= "/img/mk.gif"> <p>
+    Parágrafo com caracter  &lt;br&gt;</p>
+    <p>&reg; &copy; &trade; &euro; &pound; &yen;
+    &cent; &delta; &uarr; </p>
+
+    <!-- Para inserir use o
+    emoji hexadecimal do site emojipedia.org e o
+    código vai depois do &3x -->
+
+    <p>Inserindo um emoji &#x1F60A  &#x2764</p>
+
+    <!-- Tags para formatação e enfatização do texto -->
+    <b> Texto em Negrito</b><br>
+    <strong>Texto importante</strong>
+    <h1><i>H1 itálico</i></h1>
+    <em>Texto enfatizado</em><br>
+    <mark>Texto marcado</mark><br>
+    <h3>Texto<small>Menor</small></h3>
+    <del>Texto Excluido</del><br>
+    <ins>Texto inserido </ins>
+    <p>4<sub>2</sub></p>
+    <p>3<sub>3</sub></p>
+    <u>Texto sublinhado</u> <p>
+    
+    <!-- Aplicando link em um imagem-->
+    <a href="https://www.sesisp.org.br" target="_blank"><img src="/img/logo_sesi.png" alt=""></a>
+
+    <p style="font-size: x-large;"> Videos do Youtube</p>
+    <iframe width="928" height="522" src="https://www.youtube.com/embed/ezbYAglQoxI" title="“Dragon Ball DAIMA”  The main Trailer / October 2024" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <iframe width="928" height="522" src="https://www.youtube.com/embed/CRqy6-7ob1M" title="DmC Devil May Cry™: DE Combo MAD &quot;The SSStylish Devil&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!-- Aplicando css interno -->
+    <p class="paragrafo">
+        logo do google
+        <img class= ".imagem" src="/img/logo_sesi.png" alt="">
+    </p>
+    <hr>
+    <!-- Listas -->
+    <!-- Listas Ordenadas -->
+     <ol>
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar uniforme</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para escola</li>
+     </ol>
+
+     <br>
+
+     <!-- Lista Ordenada com alfabeto -->
+     <ol type="A">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar uniforme</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para escola</li>
+     </ol>
+
+     <br>
+
+      <!-- Lista Ordenada com número romano maisculo -->
+     <ol type="I">
+        <li>Acordar</li>
+        <li>Tomar banho</li>
+        <li>Colocar uniforme</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para escola</li>
+     </ol>
+
+     <br>
+
+     <!-- Lista não ordenada -->
+      <ul>
+        <li>Carvão</li>
+        <li>Carne</li>
+        <li>Bebidas</li>
+        <li>Arroz</li>
+      </ul>
+
+     <br>
+
+     <!-- Lista dentro da lista -->
+      <ul>
+        <li>Carne
+            <ul>
+                <li>Picanha</li>
+                <li>Cupim</li>
+                <li>Ponta de Peito</li>
+            </ul>
+        </li>
+      </ul>
+
+     <br>
+
+     <!-- Lista predefinida -->
+      <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de estilização do Site</dd>
+        <dt>JAVASCRIPT</dt>
+        <dd>Linguagem de programação</dd>
+      </dl>
+
+    </body>
+</html>
