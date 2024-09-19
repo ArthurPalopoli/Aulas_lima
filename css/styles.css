@@ -2,6 +2,7 @@
         /* Seletor Universal */
         *{
             margin: 0;
+            padding: ;
         }
         /* Seletor de tipo, aplicando em uma tag */
         p{
@@ -68,4 +69,87 @@ body{
 .thC {
     background-color:mediumblue ;
     color: #ffffff;
+}
+
+.img07{
+    width: 30px;
+    height: 30px;
+}
+
+.formulario {
+    background-color:cornflowerblue;
+}
+.label{
+    background-color: darkred
+}
+
+.input-nome{
+    /* remove a borda do eleme */
+    border: none;
+    border-radius: 5px;
+    margin-left: 50px;
+    /* Define opacidade do elemento */
+    opacity: 70%;
+}
+
+.botao{
+    background-color:aquamarine ;
+    border: none;
+    border-radius: 5px;
+    padding: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    /* Aplica sombra no texto posição x,y, blur e o rgba que aplica com opacidade */
+    text-shadow: 11px 1px 4px rgba(rgb(76, 0, 0);
+}
+.checar{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    /* modifica o tipo do cursor */
+    cursor:pointer ;
+    /* zerar as configurações de aparencia */
+    appearance: none;
+    background-color: #fff;
+    border:rgb(0, 252, 29) ;
+    border-radius: 5px;
+}
+.checar:checked{
+    background-color: rgb(0, 252, 29) ;
+}
+
+.email{
+    width: 300px;
+    padding: 5px 5px;
+    margin-left: 5px;
+    border: 2px solid white;
+}
+
+.selecao{
+    appearance: none;
+    width: 300px;
+    padding: 4px;
+    font-size: 16px;
+    color:rgb(80, 15, 15);
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    /* sombra no input */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8)
+}
+
+.radio{
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d3421d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* Pseudoclasse, quando o estado do objeto muda, ele atribui outras propriedades */
+.radio:checked{
+    background-color: #d3421d;
+    border-color: chartreuse;
 }
