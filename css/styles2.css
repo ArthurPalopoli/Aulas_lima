@@ -1,0 +1,26 @@
+.logback {
+    background: rgb(54,4,172);
+background: radial-gradient(circle, rgba(54,4,172,1) 10%, rgba(16,109,221,1) 52%, rgba(77,22,205,1) 95%);
+}
+
+.centralizar {
+    margin: 0 auto centralizar
+}
+
+.form {
+    background-color:rgb(255, 255, 255);
+    width: 350px;
+    height: 300px;
+    margin: 0 auto;
+    
+   
+}
+.cor {
+    color: rgb(255, 255, 255);
+}
+
+.imgform {
+    background-color:rgb(255, 255, 255);
+    width: 800px;
+    height: 100px;
+}

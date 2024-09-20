@@ -79,7 +79,7 @@ body{
 .formulario {
     background-color:cornflowerblue;
 }
-.label{
+.label
     background-color: darkred
 }
 
@@ -90,6 +90,7 @@ body{
     margin-left: 50px;
     /* Define opacidade do elemento */
     opacity: 70%;
+    
 }
 
 .botao{

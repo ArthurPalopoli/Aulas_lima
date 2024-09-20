@@ -1,0 +1,24 @@
+.div1{
+    background-color: rgb(252, 213, 163);
+}
+.div2{
+    background-color:rgb(188, 244, 244);
+}
+.div3{
+    background-color:rgb(243, 153, 89);
+}
+
+.container{
+    border: 2px solid black;
+    /* Limita o tamanho do elemento */
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.item{
+    background-color: #3cd5ff;
+    margin: 5px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
