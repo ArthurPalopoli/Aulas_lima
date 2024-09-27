@@ -31,13 +31,13 @@
 }
 
 .flex > div > img{
-    height: 125px;
-    width: 130px;
+    height: 130px;
+    width: 170px;
 }
 
 .div_coluna{
     height: 60;
-    width: 130px;
+    width: 170px;
     background-color: rgb(166, 202, 204);
 }
 
@@ -102,3 +102,120 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.container-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto; /*Adiciona Scroll na horizontal */
+    gap: 0.4rem;
+    height: 500px;
+}
+
+.card {
+    width: 300px;
+    flex: 0 0 auto; /*Evita que os cards encolham ou se ajustem automaticamente*/
+    border: 1px solid  #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px  rgba(0, 0, 0, 0.4);
+    font-family: arial, helvetica, sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card:hover{
+    /* Serve para criar um efeito hover, mudando a posição do card */
+    transform: scale(1.025);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6);
+}
+
+.cabecalho-card {
+    padding: 16px;
+    text-align: center;
+}
+
+.titulo-card {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.subtitulo-card1 {
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: gold;
+    color: #ffffff; 
+}
+.subtitulo-card2 {
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: rgb(0, 198, 7);
+    color: #ffffff; 
+}
+.subtitulo-card3 {
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: rgb(255, 153, 0);
+    color: #ffffff; 
+}
+.subtitulo-card4 {
+    text-align: center;
+    font-size: 1.4rem;
+    background-color: rgb(0, 170, 255);
+    color: #ffffff; 
+}
+
+.imagem-card {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.imagem-card > img {
+    max-width: 100%; /* mantem o limite maximo do tamanho do container */
+    height: 150px; /* mantem a proporção da imagem */
+
+}
+
+.imagem-card > figcaption {
+    font-size: 0.8rem;
+    padding: 8px;
+    text-align: center;
+    color: #555;
+}
+
+.conteudo-card {
+    padding: 10px;
+    background-color: #ececec;
+    text-align: center;
+    height: 70px;
+}
+
+.rodape-card {
+    background-color: rgba(112, 111, 111, 0.333);
+    text-align: center;
+    padding: 6px;
+    
+}
+
+.botao-card {
+    text-decoration: none;   /* remove a sublinhagem do saiba mais*/
+    color: white;
+    background-color: rgb(68, 68, 236);
+    border-radius: 4px;
+    padding: 5px 6px;
+   
+    /* Permite definir largura e altura, 
+    alinha elementos na mesma linah */
+    display: inline-block;
+    
+    
+}
+
+.botao-card:hover {
+    background-color: #00c8ff;
+    width: 100px;
+    
+}
+
