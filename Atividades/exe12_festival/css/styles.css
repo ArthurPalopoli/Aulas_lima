@@ -1,0 +1,42 @@
+/* Ajustes de Responsividade */
+/* XL - EXTRA GRANDE */
+@media (min-width: 1200px) {
+
+}
+
+/* LG - GRANDE */
+@media (max-width: 1199px) {
+
+}
+
+/* Md - MEDIO */
+@media(max-width: 991px) {
+
+}
+
+/* SM - Pequeno */
+@media (max-width: 768px) {
+    .banner-text h1{
+        font-size: 2.0rem;
+    }
+
+    .card > img{
+        height: 150px;
+    }
+}
+
+/* XS - Extra Pequen0 */
+@media (max-width: 576px) {
+    .banner-text h1{
+        font-size: 1.5rem;
+    }
+}
+
+
+@media (max-width: 340px) {
+    .banner-text a{
+        width: 70px;
+        font-size: 0.5rem;
+    }
+}
+

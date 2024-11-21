@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap'); /*fonte 1 - teko */
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*fonte 2 - doto */
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); /*fonte 3 - itim */
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Doto:wght@100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Danfo&family=Doto:wght@100..900&family=Itim&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.font-1 {
+    font-family: 'Teko';
+}
+
+.font-2 {
+    font-family: 'Doto';
+}
+
+.font-3 {
+    font-family: 'Itim';
+}
+
+.font-4 {
+    font-family: 'Anton SC';
+}
+
+.font-5 {
+    font-family: 'Danfo';
+}
+.font-6 {
+    font-family: 'Itim';
+}
+.font-7 {
+    font-family: 'Itim';
+}
+
